@@ -1,0 +1,58 @@
+.login {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .buttonWrapper {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+  button {
+    background-color: #5800ff;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    // background-color: ;
+    cursor: pointer;
+  }
+}
+
+.form {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: #5800ff;
+  padding: 30px;
+  border-radius: 10px;
+  font-family: "Inter";
+
+  label {
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  .selectWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  select {
+    color: black !important;
+  }
+
+  select,
+  input {
+    height: 35px;
+    background-color: white;
+    border: none;
+    outline: none;
+    padding: 0 4px;
+    border-radius: 4px;
+  }
+}
