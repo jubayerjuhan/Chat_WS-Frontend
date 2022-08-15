@@ -45,7 +45,15 @@ const LoginPage = () => {
     navigate(`/chat?room=${fieldValues.room || "general"}`);
   };
 
-  const chatRooms = ["Javascript", "Python", "Ruby", "React", "Angular"];
+  const chatRooms = [
+    "Select One Chanel",
+    "Prem",
+    "Javascript",
+    "Python",
+    "Ruby",
+    "React",
+    "Angular",
+  ];
   return (
     <div className="login">
       {/* <div className="buttonWrapper"> */}
